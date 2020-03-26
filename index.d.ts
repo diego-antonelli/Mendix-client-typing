@@ -737,6 +737,7 @@ declare namespace mx {
         getTemplate(mxid: string, content: string): DocumentFragment;
         showLogin(messageCode: number): void;
         reload(callback?: () => void): void;
+        toggleSidebar(): void;
         // translate(systemTextCategory: string, systemTextItem: string, parameterValues?: any[]): string;
     }
 }
